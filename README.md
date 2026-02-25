@@ -32,9 +32,9 @@ The proliferation of Internet of Things (IoT) devices has created large-scale, h
 │   ├── metrics.py           # Structural and spectral feature extraction
 │   ├── attacks.py           # Attack simulation (DDoS, compromise, rewiring)
 │   ├── anomaly.py           # Probabilistic anomaly detection
-│   ├── visualization.py     # Matplotlib visualisation
+│   ├── visualization.py     # Matplotlib visualization
 │   └── main.py              # Pipeline orchestration & CLI entry point
-├── data/                    # Output artefacts (plots, reports)
+├── data/                    # Output artifacts (plots, reports)
 ├── requirements.txt
 └── README.md
 ```

@@ -7,7 +7,7 @@ Orchestrates the full Graph-Based Probabilistic Intrusion Detection pipeline:
 2. Inject attacks (DDoS, node compromise, edge rewiring).
 3. Extract graph metrics for both states.
 4. Run probabilistic anomaly detection.
-5. Generate comparison visualisations.
+5. Generate comparison visualizations.
 6. Print a summary report to the console.
 """
 
@@ -56,7 +56,7 @@ def run_pipeline(
     seed : int
         Random seed.
     output_dir : str
-        Directory for output artefacts.
+        Directory for output artifacts.
     attack_type : str
         One of ``'ddos'``, ``'compromise'``, ``'rewiring'``, or ``'all'``.
 
@@ -93,7 +93,7 @@ def run_pipeline(
     anomaly_report = global_anomaly_report(G_normal, G_attacked)
 
     # ── Visualisation ────────────────────────────────────────────────────
-    print("[5/5] Generating visualisations ...")
+    print("[5/5] Generating visualizations ...")
     generate_all_plots(G_normal, G_attacked, output_dir=output_dir)
 
     # ── Summary ──────────────────────────────────────────────────────────

@@ -200,7 +200,7 @@ def generate_all_plots(
     G_attacked: nx.DiGraph,
     output_dir: str = "data",
 ) -> None:
-    """Generate all visualisation plots and save to *output_dir*."""
+    """Generate all visualization plots and save to *output_dir*."""
     plot_network_topology(G_normal, G_attacked, output_dir)
     plot_degree_distribution(G_normal, G_attacked, output_dir)
     plot_eigenvalue_spectrum(G_normal, G_attacked, output_dir)
